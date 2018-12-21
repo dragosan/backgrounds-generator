@@ -1,0 +1,115 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width",initial-scale=1 />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+  <body>
+    <div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p>
+  
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+  </div>
+  <script>
+      //let result =prompt('How old are you?');
+      // let isBoss=prompt('What is your name?','anonymous');
+      // alert(`Hello  ${isBoss} `);
+      // let age=prompt('how old?','');
+      // let message=(age<10)?'too young':
+      // (age<18)?'welcome ':
+      // (age<40)?'still breathing':
+      // (age<100)?'really?!':
+      // 'what a mircale';
+      // let message=prompt('What is the “official” name of JavaScript?','');
+      // message=='ECMAScript'?document.write('Right'):
+      // document.write('Didn’t know? ECMAScript!');
+      // let result;
+      // let message=prompt('Username?','');
+      // message=='admin'?result=prompt('Password'):
+      // message=='' | message==undefined?alert('Cancelled'):
+      // alert("I don't know");
+
+      // result=='TheMaster'?alert('Welcome!'):
+      // result==''?alert('Cancelled'):
+      // alert('Wrong Password');
+
+      // let sum=0;
+      // while(true){
+      //   value=+prompt('Enter Number','');
+      //   if(!value) break;
+      //   sum+=value;
+      // }  
+      // alert(sum);
+
+      // let value=prompt('enter a number','');
+      // nextPrime:
+      // for(let i=1;i<value;i++){
+      //   for(let j=2;j<i;j++){
+      //     if(i%j==0) continue nextPrime;
+          
+      //   }
+      //   document.write(i+" ");
+        
+      // }
+      const A='hello world';
+      let func= a=>a**2;
+      let hi=()=>alert('hi');
+      //let age=prompt('how old are you',18);
+      //let welcome=(age<18)?()=>alert('welcome'):()=>alert('hello');
+      //welcome();
+      function ask(question,yes,no){
+        if(confirm(question)?yes():no());
+      }
+      //ask('are you 18',()=>alert('you are'),()=>alert('you are not'));
+      //A='hello Egypt';
+    //  let user={
+    //    name:"hosam",
+    //    age:35
+    //  };
+     
+    //  let key=prompt("change name: ","name")
+     
+    //  alert(user[key]);
+      
+    let fruit=prompt('which fruit to buy','apples');
+    let bag={
+      [fruit]:5,
+    };
+    alert(bag["apples"]);
+
+      
+     
+            
+      </script>
+</div>
+
+  </body>
+</head>
+
+</html>
